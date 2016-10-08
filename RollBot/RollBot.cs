@@ -59,7 +59,7 @@ namespace RollBot
             /* Connect To Discord */
             discord.ExecuteAndWait(async () =>
                 {
-                    await discord.Connect("MjMzMDczODA3NTQyMTkwMDgx.CtYKfg.e0LNh0nHZl8z3ygnjkyMLmiafnc", TokenType.Bot); //"MjMzMDczODA3NTQyMTkwMDgx.CtYKfg.e0LNh0nHZl8z3ygnjkyMLmiafnc"
+                    await discord.Connect("", TokenType.Bot); // Your token here
                 });
             /**********************/
 
